@@ -114,6 +114,7 @@ public class TripleQuoteStringReaderWrapper extends AFn {
              *
              * So, since we just read 3 closing quotes, we may break out of the loop
              * and return the string concatenate from the all StringReader.invoke() calls above.
+             */
             break;
         }
 
